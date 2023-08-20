@@ -3,30 +3,32 @@
 <div class="row">
   <div class="col">
     <h2>User</h2>
+    <br>
     <table>
       <tr>
         <th>Add ToDo:</th>
         <th class="remove">Remove</th>
       </tr>
-      <tr *ngFor="let i of users; index as j">
+      <tr class="trsize" *ngFor="let i of users; index as j">
         <td>{{i}}</td>
-        <button class="remove" (click)="removeitem(j)">Remove</button>
+        <td class="remove" (click)="removeitem(j)">Remove</td>
         
       </tr>
     </table>
   </div>
   <div class="col">
     <h2>Admin</h2>
+    <br>
     <table>
       <tr>
-        <th>UserName:</th>
+        <th>User Name:</th>
         <th class="remove">Remove</th>
       </tr>
       <tr>
         
-        <tr *ngFor="let i of users2; index as j">
+        <tr class="trsize" *ngFor="let i of users2; index as j">
         <td>{{i}}</td>
-        <button class="remove" (click)="removeitem2(j)">Remove</button>
+        <td class="remove" (click)="removeitem2(j)">Remove</td>
       </tr>
     </table>
   </div>

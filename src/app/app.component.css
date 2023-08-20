@@ -1,6 +1,9 @@
+.trsize{
+  font-size: 25px;
+}
 .col{
   background: #fdfdfd;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #f21afa;
   padding: 15px;
   border-radius: 5px;
   width: 45%;
@@ -20,6 +23,7 @@
 }
 .col table th{
   background:#f4f4f4;
+  font-size: 25px;
 }
 .remove{
   color: #d00421;
