@@ -1,0 +1,31 @@
+.col{
+  background: #fdfdfd;
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+  border-radius: 5px;
+  width: 48%;
+}
+.col h2{
+  color: #4ec65f;
+  font-size: 42px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.col table{
+  font-size: 35px;
+  width: 100%;
+  text-align: left;
+
+}
+.col table th{
+  background:#f4f4f4;
+}
+.remove{
+  color: #d00421;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
