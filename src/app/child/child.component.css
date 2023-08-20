@@ -1,0 +1,42 @@
+.box{
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  width: 400px;
+  margin: 44px 0px;
+}
+
+input{
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: #ddd;
+  display: block;
+  width: 80%;
+  padding: 10px 12px;
+
+}
+button{
+  background: #28a745;
+  font-size: 20px;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 30px 110px;
+ 
+}
+
+.count{
+  text-align: left;
+}
+
+.boxred{
+  background: #fff7f3;
+  border: 1px solid #f75e0b;
+}
+.boxgreen{
+  background: #f4fbf6;
+  border: 1px solid #28a745;
+}
